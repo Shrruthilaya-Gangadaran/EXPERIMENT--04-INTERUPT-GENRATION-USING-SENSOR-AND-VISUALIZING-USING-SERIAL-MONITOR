@@ -1,13 +1,13 @@
 # EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
 
-### Aim:
+### AIM:
 To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor 
 
-### Components required:
+### COMPONENTS REQUIRED:
 STM32 CUBE IDE,  serial port utility monitor .
 
 
-## Theory :
+## THEORY:
 
 An infrared (IR) sensor a proximity sensor, or a ‘nearness’ sensor senses whether there is an object near it or not. The IR stands for Infrared sensor. Infrared is the light out of our visible spectrum.
 
@@ -30,7 +30,7 @@ Connect VCC pin to the +5V pin on evive.
 Connect GND pin to evive’s GND pin.
 Connect OUT to any gpio and configure that pin as EXTI mode 
 
-### Interrupts
+### INTERRUPTS:
 
 
 Interrupts are asynchronous (i.e. can happen anytime) events that disrupt the normal flow of your program. This allows the microcontroller to focus on a key task and attend to these events (e.g. pressing a button) as they come without needing to wait for them.
@@ -49,7 +49,7 @@ The STM32 ARM microcontroller features 23 event sources which are divided into t
 
 
 The diagram below shows how the GPIO pins are connected to the 16 interrupt lines:
-## Procedure:
+## PROCEDURE:
  1. click on STM 32 CUBE IDE, the following screen will appear 
  ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
 
@@ -230,16 +230,16 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 
 
-## Output screen shots of serial port utility   :
+## OUTPUT SCREENSHOTS OF SERIAL PORT UTILITY:
  ![image](https://github.com/Shrruthilaya-Gangadaran/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/93427705/137a7f10-369c-4b99-aa20-83325b16d84c)
 ![image](https://github.com/Shrruthilaya-Gangadaran/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/93427705/8a1de76b-32b0-4029-98bf-18a131df6c31)
 
  
- ## Circuit board :
+ ## CIRCUIT BOARD:
  
  ![image](https://github.com/Shrruthilaya-Gangadaran/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/93427705/043adf3d-10c6-40e5-b8c8-1cc121f41a4d)
 ![image](https://github.com/Shrruthilaya-Gangadaran/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/93427705/8c1c0ef0-648e-42eb-8f0a-0d4366a60979)
 
- ## Result:
+ ## RESULT:
  Interfacing a IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port
 
