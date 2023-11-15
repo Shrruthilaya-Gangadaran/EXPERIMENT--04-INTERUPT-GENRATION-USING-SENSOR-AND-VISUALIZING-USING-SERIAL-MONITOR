@@ -1,9 +1,9 @@
 # EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR
 
-### AIM:
+## AIM:
 To Interface a IR Sensor to digital port of iot development board  and generate an interrupt and visualize on the serial monitor 
 
-### COMPONENTS REQUIRED:
+## COMPONENTS REQUIRED:
 STM32 CUBE IDE,  serial port utility monitor .
 
 
